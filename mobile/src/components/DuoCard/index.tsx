@@ -2,6 +2,7 @@ import React from "react";
 import { GameController } from "phosphor-react-native";
 import { View, TouchableOpacity, Text } from "react-native";
 import { THEME } from "../../theme";
+import * as Clipboard from "expo-clipboard";
 import { DuoInfo } from "../DuoInfo";
 
 import { styles } from "./styles";
